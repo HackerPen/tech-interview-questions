@@ -48,6 +48,6 @@ task :generate_coding_json do
     # rewrite the file
     File.delete(coding_json_file_path) if File.exists?(coding_json_file_path)
     puts "❤️ new coding.json created ❤️"
-    File.open(coding_json_file_path, "w") {|f| f.write(data)}
+    File.open(coding_json_file_path, "w") {|f| f.write(data.to_json)}
   end
 end
