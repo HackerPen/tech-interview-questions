@@ -1,0 +1,18 @@
+---
+identifier: coding_buy_sell_stock
+category: coding 
+subcategory: "array"
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+starter_code:
+  c: "starter.c"
+  cpp: "starter.cpp"
+  go: "starter.go"
+  javascript: "starter.js"
+  python: "starter.py"
+  ruby: "starter.rb"
+industries:
+  - finance
+difficulty: easy
