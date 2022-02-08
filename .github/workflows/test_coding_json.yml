@@ -1,6 +1,9 @@
 name: Test Coding JSON
 
 on:
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -13,5 +16,11 @@ jobs:
           ruby-version: 3.0
           bundler-cache: true
       - name: DRY_RUN rake generate_coding_json
+        id: generate-coding-json
         run: |
           DRY_RUN=true rake generate_coding_json
+      - name: Echo new version
+        env:
+          JSON_VERSION: ${{steps.generate-coding-json.outputs.CODING_JSON_VERSION}}
+        run: |
+          echo "New Coding JSON version: $JSON_VERSION"

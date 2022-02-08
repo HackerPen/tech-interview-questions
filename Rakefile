@@ -50,4 +50,7 @@ task :generate_coding_json do
     puts "❤️ new coding.json created ❤️"
     File.open(coding_json_file_path, "w") {|f| f.write(data.to_json)}
   end
+
+  # set GHA output
+  puts "::set-output name=CODING_JSON_VERSION::#{data[:version]}"
 end
