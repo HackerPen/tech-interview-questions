@@ -1,0 +1,21 @@
+name: Generate Coding JSON
+
+on:
+  push:
+    paths:
+      - coding/
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+      - name: rake generate_coding_json
+        run: |
+          bundle exec rake generate_coding_json
