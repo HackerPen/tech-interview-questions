@@ -6,24 +6,24 @@ GITHUB_BRANCH = 'main'
 
 def coding_question_data(dir)
   raise "meta file does not exist for #{dir}" unless File.exists?("#{dir}/meta.yml")
-	question_data = YAML.load(File.read("#{dir}/meta.yml"))
+  question_data = YAML.load(File.read("#{dir}/meta.yml"))
 
   description = question_data["description"]
-	description.each do |locale, file_path|
-	  description[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
-	end
+  description.each do |locale, file_path|
+    description[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
+  end
 
-	solution = question_data["solution"]
-	  solution.each do |locale, file_path|
-		solution[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
-	end
+  solution = question_data["solution"]
+  solution.each do |locale, file_path|
+    solution[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
+  end
 
-	starter_code = question_data["starter_code"]
-	starter_code.each do |lang, file_path|
-		starter_code[lang] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
-	end
+  starter_code = question_data["starter_code"]
+  starter_code.each do |lang, file_path|
+    starter_code[lang] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
+  end
 
-	return question_data
+  return question_data
 end
 
 desc "generate data from coding questions. DRY_RUN=true rake generate_coding_json"

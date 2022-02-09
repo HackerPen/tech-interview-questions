@@ -3,7 +3,8 @@ name: Generate Coding JSON
 on:
   push:
     paths:
-      - coding/
+      - 'coding/**'
+      - 'coding/**/**'
     branches:
       - main
 
