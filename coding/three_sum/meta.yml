@@ -1,5 +1,5 @@
 ---
-identifier: 3Sum
+identifier: coding_three_sum
 category: coding
 subcategory: "array"
 difficulty: medium
@@ -15,9 +15,3 @@ starter_code:
   python: "starter.py"
   ruby: "starter.rb"
   java: "starter.java"
-industries:
-  - finance
-  - education
-  - ecommerce
-  - social_media
-  - dev_tools

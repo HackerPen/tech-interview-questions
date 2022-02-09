@@ -11,6 +11,7 @@ corner cases to consider:
 * null/empty input
 * duplicates
 * this is a problem with a lot of variations such as summing to a different target, not allowing to sort, etc
+* if using built in sort, it will be good to know language's built in sort algorithm
 
 **implementation**
 
@@ -51,7 +52,6 @@ class Solution:
 
 * Space complexity: O(log n) for recursive stack space of sorting algorithm. O(1) for pointers
 
-* good to know language's built in sort algorithm
 
 ```javascript
 const threeSum = nums => {
