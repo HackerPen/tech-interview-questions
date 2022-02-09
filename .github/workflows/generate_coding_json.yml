@@ -1,0 +1,32 @@
+name: Generate Coding JSON
+
+on:
+  push:
+    paths:
+      - coding/
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+      - name: rake generate_coding_json
+        id: generate-coding-json
+        run: |
+          rake generate_coding_json
+      - name: Commit new coding.json
+        env:
+          JSON_VERSION: ${{steps.generate-coding-json.outputs.CODING_JSON_VERSION}}
+        run: |
+          git config --global user.name 'HackerPen Bot'
+          git config --global user.email 'hackerpen@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git checkout "${GITHUB_REF:11}"
+          git commit -am "Update coding.json version to ${JSON_VERSION}"
+          git push
