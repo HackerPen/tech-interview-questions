@@ -34,6 +34,20 @@ class Solution:
                     return [i, j]
 ```
 
+```javascript
+const twoSum = (nums, target) => {
+    if (nums === null || nums.length === 0) return [];
+    const n = nums.length
+    for (let i = 0; i < n-1; i++){
+        for (let j = i+1; j < n; j++){
+            if (nums[i] + nums[j] === target){
+                return [i,j]
+            }
+        }
+    }
+}
+```
+
 **complexity**
 
 * Time complexity: O(n^2). For each element, we try to find its complement by looping through the rest of the array which takes O(n)O(n) time. Therefore, the time complexity is O(n^2).
