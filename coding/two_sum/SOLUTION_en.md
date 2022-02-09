@@ -92,6 +92,19 @@ class Solution:
             hashmap[nums[i]] = i
 ```
 
+```javascript
+const twoSum = (nums, target) => {
+    if (nums === null || nums.length === 0) return [];
+    const n = nums.length, hashmap = new Map();
+    for (let i = 0; i < n; i++){
+        const complement = target - nums[i];
+        if (hashmap.has(complement)) return [i, hashmap.get(complemnt)];
+        hashmap.set(nums[i],i);
+    }
+}
+```
+
+
 **complexity**
 
 * Time complexity: O(n). We traverse the list containing n elements only once. Each lookup in the table costs only O(1) time.
