@@ -1,5 +1,4 @@
-## Title for the solution
-
+## Solution for Three Sum
 
 ### Approach 1: Two Pointers
 
@@ -16,11 +15,6 @@ corner cases to consider:
 **implementation**
 
 ```python
-def solution(self):
-  pass
-```
-
-```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -45,13 +39,6 @@ class Solution:
 
         return triplets
 ```
-
-***complexity***
-
-* Time complexity: O(n log n + n^2). This is asymptotically O(n^2)
-
-* Space complexity: O(log n) for recursive stack space of sorting algorithm. O(1) for pointers
-
 
 ```javascript
 const threeSum = nums => {
@@ -80,3 +67,11 @@ const threeSum = nums => {
   return triplets;
 }
 ```
+
+***complexity***
+
+* Time complexity: O(n log n + n^2). This is asymptotically O(n^2)
+
+* Space complexity: O(log n) for recursive stack space of sorting algorithm. O(1) for pointers
+
+
