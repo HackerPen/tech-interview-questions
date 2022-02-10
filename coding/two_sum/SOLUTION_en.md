@@ -1,6 +1,5 @@
 ## Solution for Two Sum
 
-
 ### Approach 1: Brute Force
 
 **algorithm**
@@ -34,12 +33,25 @@ class Solution:
                     return [i, j]
 ```
 
+```javascript
+const twoSum = (nums, target) => {
+  if (nums === null || nums.length === 0) return [];
+  const n = nums.length;
+  for (let i = 0; i < n - 1; i++) {
+    for (let j = i + 1; j < n; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+};
+```
+
 **complexity**
 
-* Time complexity: O(n^2). For each element, we try to find its complement by looping through the rest of the array which takes O(n)O(n) time. Therefore, the time complexity is O(n^2).
+- Time complexity: O(n^2). For each element, we try to find its complement by looping through the rest of the array which takes O(n)O(n) time. Therefore, the time complexity is O(n^2).
 
-* Space complexity: O(1). The space required does not depend on the size of the input array, so only constant space is used.
-
+- Space complexity: O(1). The space required does not depend on the size of the input array, so only constant space is used.
 
 ### Approach 2: Two-pass Hash Table
 
@@ -65,13 +77,11 @@ class Solution:
                 return [i, hashmap[complement]]
 ```
 
-
 **complexity**
 
-* Time complexity: O(n). We traverse the list containing n elements exactly twice. Since the hash table reduces the lookup time to O(1), the overall time complexity is O(n)O(n).
+- Time complexity: O(n). We traverse the list containing n elements exactly twice. Since the hash table reduces the lookup time to O(1), the overall time complexity is O(n)O(n).
 
-* Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores exactly n elements.
-
+- Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores exactly n elements.
 
 ### Approach 2: One-pass Hash Table
 
@@ -92,8 +102,21 @@ class Solution:
             hashmap[nums[i]] = i
 ```
 
+```javascript
+const twoSum = (nums, target) => {
+  if (nums === null || nums.length === 0) return [];
+  const n = nums.length,
+    hashmap = new Map();
+  for (let i = 0; i < n; i++) {
+    const complement = target - nums[i];
+    if (hashmap.has(complement)) return [i, hashmap.get(complemnt)];
+    hashmap.set(nums[i], i);
+  }
+};
+```
+
 **complexity**
 
-* Time complexity: O(n). We traverse the list containing n elements only once. Each lookup in the table costs only O(1) time.
+- Time complexity: O(n). We traverse the list containing n elements only once. Each lookup in the table costs only O(1) time.
 
-* Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores at most n elements.
+- Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores at most n elements.
