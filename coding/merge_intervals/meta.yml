@@ -2,7 +2,7 @@
 identifier: coding_merge_intervals
 category: coding
 subcategory: "array"
-difficulty: merdium
+difficulty: medium
 description:
   en: README_en.md
 solution:
