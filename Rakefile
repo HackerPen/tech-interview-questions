@@ -8,6 +8,8 @@ def coding_question_data(dir)
   raise "meta file does not exist for #{dir}" unless File.exists?("#{dir}/meta.yml")
   question_data = YAML.load(File.read("#{dir}/meta.yml"))
 
+  validate_question_data(question_data)
+
   description = question_data["description"]
   description.each do |locale, file_path|
     description[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
@@ -24,6 +26,19 @@ def coding_question_data(dir)
   end
 
   return question_data
+end
+
+def validate_question_data(data)
+  # rule 1: difficulty must be one of ["easy", "medium", "hard"]
+  unless ["easy", "medium", "hard"].include?(data["difficulty"])
+    raise "#{data['difficulty']} is not a valid difficulty, must be one of ['easy', 'medium', 'hard']"
+  end
+  # TODO rule 2: category must be one of ["coding", "system_design"]
+  # rule 3: en-locale description must be present
+  unless data["description"].keys.include?("en")
+    raise "description items must include english solution"
+  end
+  # TODO rule 4: en-locale solution must be present
 end
 
 desc "generate data from coding questions. DRY_RUN=true rake generate_coding_json"
