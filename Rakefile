@@ -33,7 +33,11 @@ def validate_question_data(data)
   unless ["easy", "medium", "hard"].include?(data["difficulty"])
     raise "#{data['difficulty']} is not a valid difficulty, must be one of ['easy', 'medium', 'hard']"
   end
-  # TODO rule 2: category must be one of ["coding", "system_design"]
+  # rule 2: category must be one of ["coding", "system_design"]
+  unless ["coding", "system_design"].include?(data["category"])
+    raise "#{data['category']} is not a valid category, must be one of ['coding', 'system_design']"
+  end
+
   # rule 3: en-locale description must be present
   unless data["description"].keys.include?("en")
     raise "description items must include english solution"
