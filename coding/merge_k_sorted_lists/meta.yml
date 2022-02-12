@@ -1,0 +1,13 @@
+---
+identifier: coding_merge_k_sorted_lists
+category: coding
+subcategory: "heap"
+difficulty: hard
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+starter_code:
+  javascript: "starter.js"
+  python: "starter.py"
+industries:
