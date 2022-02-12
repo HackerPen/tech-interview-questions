@@ -31,14 +31,22 @@ end
 def validate_question_data(data)
   # rule 1: difficulty must be one of ["easy", "medium", "hard"]
   unless ["easy", "medium", "hard"].include?(data["difficulty"])
-    raise "#{data['difficulty']} is not a valid difficulty, must be one of ['easy', 'medium', 'hard']"
+    raise "In #{data['identifier']}, #{data['difficulty']} is not a valid difficulty, must be one of ['easy', 'medium', 'hard']"
   end
-  # TODO rule 2: category must be one of ["coding", "system_design"]
+  # rule 2: category must be one of ["coding", "system_design"]
+  unless ["coding", "system_design"].include?(data["category"])
+    raise "In #{data['identifier']}, #{data['category']} is not a valid category, must be one of ['coding', 'system_design']"
+  end
+
   # rule 3: en-locale description must be present
   unless data["description"].keys.include?("en")
-    raise "description items must include english solution"
+    raise "In #{data['identifier']}, description items must include english solution"
   end
-  # TODO rule 4: en-locale solution must be present
+  # rule 4: en-locale solution must be present
+  unless data["solution"].keys.include?("en")
+    raise "In #{data['identifier']}, solution must include english solution"
+  end
+
 end
 
 desc "generate data from coding questions. DRY_RUN=true rake generate_coding_json"
