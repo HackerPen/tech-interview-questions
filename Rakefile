@@ -42,7 +42,11 @@ def validate_question_data(data)
   unless data["description"].keys.include?("en")
     raise "description items must include english solution"
   end
-  # TODO rule 4: en-locale solution must be present
+  # rule 4: en-locale solution must be present
+  unless data["solution"].keys.include?("en")
+    raise "solution must include english solution"
+  end
+
 end
 
 desc "generate data from coding questions. DRY_RUN=true rake generate_coding_json"
