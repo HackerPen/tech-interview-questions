@@ -23,7 +23,7 @@ jobs:
           rake generate_system_design_json
       - name: Commit new system_design.json
         env:
-          JSON_VERSION: ${{steps.generate-system_design-json.outputs.SYSTEM_DESIGN_JSON_VERSION}}
+          JSON_VERSION: ${{steps.generate-system-design-json.outputs.SYSTEM_DESIGN_JSON_VERSION}}
         run: |
           git config --global user.name 'HackerPen Bot'
           git config --global user.email 'hackerpen@users.noreply.github.com'
