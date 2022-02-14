@@ -1,0 +1,26 @@
+name: Test System Design JSON
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+      - name: DRY_RUN rake generate_system_design_json
+        id: generate-system-design-json
+        run: |
+          DRY_RUN=true rake generate_system_design_json
+      - name: Echo new version
+        env:
+          JSON_VERSION: ${{steps.generate-system_design-json.outputs.SYSTEM_DESIGN_JSON_VERSION}}
+        run: |
+          echo "New system design JSON version: $JSON_VERSION"
