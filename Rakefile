@@ -28,6 +28,25 @@ def coding_question_data(dir)
   return question_data
 end
 
+def system_design_question_data(dir)
+  raise "meta file does not exist for #{dir}" unless File.exists?("#{dir}/meta.yml")
+  question_data = YAML.load(File.read("#{dir}/meta.yml"))
+
+  validate_question_data(question_data)
+
+  description = question_data["description"]
+  description.each do |locale, file_path|
+    description[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
+  end
+
+  solution = question_data["solution"]
+  solution.each do |locale, file_path|
+    solution[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
+  end
+
+  return question_data
+end
+
 def validate_question_data(data)
   # rule 1: difficulty must be one of ["easy", "medium", "hard"]
   unless ["easy", "medium", "hard"].include?(data["difficulty"])
@@ -71,9 +90,38 @@ task :generate_coding_json do
     # rewrite the file
     File.delete(coding_json_file_path) if File.exists?(coding_json_file_path)
     puts "❤️ new coding.json created ❤️"
-    File.open(coding_json_file_path, "w") {|f| f.write(data.to_json)}
+    File.open(coding_json_file_path, "w") {|f| f.write(JSON.pretty_generate(data))}
   end
 
   # set GHA output
   puts "::set-output name=CODING_JSON_VERSION::#{data[:version]}"
+end
+
+desc "generate data from system design questions. DRY_RUN=true rake generate_system_design_json"
+task :generate_system_design_json do
+  data = {}
+  dirs = Dir.glob("system_design/**")
+  system_design_questions = dirs.map {|dir| system_design_question_data(dir)}
+  data[:questions] = system_design_questions
+
+  system_design_json_file_path = "system_design.json"
+  if File.exists?(system_design_json_file_path)
+    previous_data = JSON.load(File.open(system_design_json_file_path))
+    data[:version] = previous_data["version"] + 1
+  else
+    data[:version] = 1
+  end
+
+  if ENV["DRY_RUN"]
+    puts "❤️ system_design.json to generate ❤️"
+    puts data
+  else
+    # rewrite the file
+    File.delete(system_design_json_file_path) if File.exists?(system_design_json_file_path)
+    puts "❤️ new system_design.json created ❤️"
+    File.open(system_design_json_file_path, "w") {|f| f.write(JSON.pretty_generate(data))}
+  end
+
+  # set GHA output
+  puts "::set-output name=SYSTEM_DESIGN_JSON_VERSION::#{data[:version]}"
 end

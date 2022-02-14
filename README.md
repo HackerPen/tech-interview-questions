@@ -20,3 +20,10 @@ The question bank includes the following types of questions,
 - copy a new `_coding_template/` to `coding/` directory
 - modify the copied `_coding_template`
 - commit the change, push the branch, open a pull request
+
+**HOW-TO: add a system design question**
+
+- fork this repo, and create a new branch
+- copy a new `_system_design_template/` to `system_design/` directory
+- modify the copied `_system_design_template`
+- commit the change, push the branch, open a pull request

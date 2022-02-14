@@ -1,0 +1,34 @@
+name: Generate System Design JSON
+
+on:
+  push:
+    paths:
+      - 'system_design/**'
+      - 'system_design/**/**'
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+      - name: rake generate_system_design_json
+        id: generate-system-design-json
+        run: |
+          rake generate_system_design_json
+      - name: Commit new system_design.json
+        env:
+          JSON_VERSION: ${{steps.generate-system_design-json.outputs.SYSTEM_DESIGN_JSON_VERSION}}
+        run: |
+          git config --global user.name 'HackerPen Bot'
+          git config --global user.email 'hackerpen@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git checkout "${GITHUB_REF:11}"
+          git add .
+          git commit -m "Update system_design.json version to ${JSON_VERSION}"
+          git push
