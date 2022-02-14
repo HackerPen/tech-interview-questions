@@ -1,0 +1,15 @@
+---
+identifier: some_unique_question_identifier
+category: system_design
+subcategory: "array"
+difficulty: medium
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+industries:
+  - finance
+  - education
+  - ecommerce
+  - social_media
+  - dev_tools
