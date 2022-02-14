@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "identifier": "system_design_url_shortening",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/url_shortening/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/url_shortening/SOLUTION_en.md"
+      },
+      "industries": [
+        "social_media",
+        "dev_tools"
+      ]
+    }
+  ],
+  "version": 1
+}
