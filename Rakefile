@@ -48,7 +48,7 @@ def system_design_question_data(dir)
 end
 
 def validate_question_data(data)
-  # rule: coding idenfier must be unique
+  # rule: coding identifier must be unique
   unless !$unique_coding_identifiers.include?(data['identifier'])
     raise "#{data['identifier']} is a repeated question. Only add unique questions"
   end
