@@ -50,8 +50,8 @@ end
 
 def validate_question_data(data)
   # rule: coding identifier must be unique
-  unless !$unique_coding_identifiers.include?(data['identifier'])
-    raise "#{data['identifier']} is a repeated question. Only add unique questions"
+  unless !$unique_coding_identifiers&.include?(data['identifier'])
+    raise "#{data['identifier']} is a repeated question. Only add unique questions. #{$unique_coding_identifiers} is our list of problems"
   end
   $unique_coding_identifiers.add(data['identifier'])
 
