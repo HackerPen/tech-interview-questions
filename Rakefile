@@ -53,7 +53,7 @@ def validate_question_data(data)
   unless !$unique_coding_identifiers&.include?(data['identifier'])
     raise "#{data['identifier']} is a repeated question. Only add unique questions. #{$unique_coding_identifiers} is our list of problems"
   end
-  $unique_coding_identifiers.add(data['identifier'])
+  $unique_coding_identifiers&.add(data['identifier'])
 
   # rule 1: difficulty must be one of ["easy", "medium", "hard"]
   unless ["easy", "medium", "hard"].include?(data["difficulty"])
