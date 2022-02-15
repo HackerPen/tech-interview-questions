@@ -1,6 +1,20 @@
 {
   "questions": [
     {
+      "identifier": "system_design_news_feed",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/news_feed/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/news_feed/SOLUTION_en.md"
+      },
+      "industries": [
+        "social_media"
+      ]
+    },
+    {
       "identifier": "system_design_url_shortening",
       "category": "system_design",
       "difficulty": "medium",
@@ -16,5 +30,5 @@
       ]
     }
   ],
-  "version": 1
+  "version": 2
 }
