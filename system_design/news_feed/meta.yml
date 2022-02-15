@@ -1,5 +1,5 @@
 ---
-identifier: some_unique_question_identifier
+identifier: system_design_news_feed
 category: system_design
 difficulty: medium
 description:
@@ -7,8 +7,4 @@ description:
 solution:
   en: SOLUTION_en.md
 industries:
-  - finance
-  - education
-  - ecommerce
   - social_media
-  - dev_tools

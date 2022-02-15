@@ -27,3 +27,11 @@ The question bank includes the following types of questions,
 - copy a new `_system_design_template/` to `system_design/` directory
 - modify the copied `_system_design_template`
 - commit the change, push the branch, open a pull request
+
+## Acknowledgements
+
+The content in this repository is sourced from community contributors and following sources:
+
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)
+- [LeetCode](https://leetcode.com/problemset/all/)
