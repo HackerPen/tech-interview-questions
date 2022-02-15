@@ -48,6 +48,12 @@ def system_design_question_data(dir)
 end
 
 def validate_question_data(data)
+  # rule: coding idenfier must be unique
+  unless !$unique_coding_identifiers.include?(data['identifier'])
+    raise "#{data['identifier']} is a repeated question. Only add unique questions"
+  end
+  $unique_coding_identifiers.add(data['identifier'])
+
   # rule 1: difficulty must be one of ["easy", "medium", "hard"]
   unless ["easy", "medium", "hard"].include?(data["difficulty"])
     raise "In #{data['identifier']}, #{data['difficulty']} is not a valid difficulty, must be one of ['easy', 'medium', 'hard']"
@@ -71,6 +77,7 @@ end
 desc "generate data from coding questions. DRY_RUN=true rake generate_coding_json"
 task :generate_coding_json do
   data = {}
+  $unique_coding_identifiers = Set.new
   dirs = Dir.glob("coding/**")
   coding_questions = dirs.map {|dir| coding_question_data(dir)}
   data[:questions] = coding_questions
