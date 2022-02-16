@@ -69,9 +69,9 @@ def validate_question_data(data)
 
 end
 
-def check_identifier_uniqueness(coding_questions)
+def check_identifier_uniqueness(questions)
   all_identifiers = Set.new
-  for question in coding_questions do
+  for question in questions do
     q_id = question['identifier']
     if all_identifiers.include?(q_id)
       raise "duplicate identifiers detected: #{q_id}"
@@ -115,6 +115,7 @@ task :generate_system_design_json do
   data = {}
   dirs = Dir.glob("system_design/**")
   system_design_questions = dirs.map {|dir| system_design_question_data(dir)}
+  check_identifier_uniqueness(system_design_questions)
   data[:questions] = system_design_questions
 
   system_design_json_file_path = "system_design.json"
