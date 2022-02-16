@@ -1,0 +1,11 @@
+---
+identifier: system_design_web_crawler
+category: system_design
+difficulty: medium
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+industries:
+  - ecommerce
+  - dev_tools
