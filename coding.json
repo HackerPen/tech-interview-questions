@@ -138,6 +138,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_rotate_matrix",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_spiral_matrix",
       "category": "coding",
       "subcategory": "array",
@@ -248,5 +270,5 @@
       "industries": null
     }
   ],
-  "version": 15
+  "version": 16
 }
