@@ -1,5 +1,6 @@
 require 'yaml'
 require 'json'
+require 'set'
 
 GITHUB_CDN = 'https://raw.githubusercontent.com/HackerPen/tech-interview-questions'
 GITHUB_BRANCH = 'main'
@@ -68,11 +69,23 @@ def validate_question_data(data)
 
 end
 
+def check_identifier_uniqueness(coding_questions)
+  all_identifiers = Set.new
+  for question in coding_questions do
+    q_id = question['identifier']
+    if all_identifiers.include?(q_id)
+      raise "duplicate identifiers detected: #{q_id}"
+    end
+      all_identifiers.add(q_id)
+    end
+end
+
 desc "generate data from coding questions. DRY_RUN=true rake generate_coding_json"
 task :generate_coding_json do
   data = {}
   dirs = Dir.glob("coding/**")
   coding_questions = dirs.map {|dir| coding_question_data(dir)}
+  check_identifier_uniqueness(coding_questions)
   data[:questions] = coding_questions
 
   coding_json_file_path = "coding.json"
