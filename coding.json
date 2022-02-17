@@ -96,6 +96,28 @@
       ]
     },
     {
+      "identifier": "coding_meeting_rooms",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_meeting_rooms_2",
       "category": "coding",
       "subcategory": "array",
@@ -314,5 +336,5 @@
       "industries": null
     }
   ],
-  "version": 18
+  "version": 19
 }
