@@ -6,10 +6,10 @@ Open source tech interview questions, which is integrated with the mock intervie
 
 The primary goal for this project is to establish a transparent, comprehensive question bank for mock interviews on HackerPen. When the bank is transparent, people can study questions in their own time, and then practice it real time with others. When the bank is comprehensive, it should include questions not only used by big tech companies (Amazon, Facebook, Google, etc.), but also include questions suitable for startups and other smaller companies.
 
-The question bank includes the following types of questions,
+The question bank includes the following types of questions:
 
 - coding
-- system design (TODO)
+- system design
 - behavior (TODO)
 
 ## Contribute
