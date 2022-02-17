@@ -1,4 +1,4 @@
-# Solution for URL shortening service
+# Solution for designing URL shortening service
 
 ## requirements
 

@@ -1,4 +1,4 @@
-# Solution for Design a web crawler
+# Solution for designing a web crawler
 
 ## Step 1: Outline use cases and constraints
 
