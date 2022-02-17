@@ -28,7 +28,22 @@
         "social_media",
         "dev_tools"
       ]
+    },
+    {
+      "identifier": "system_design_web_crawler",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/web_crawler/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/web_crawler/SOLUTION_en.md"
+      },
+      "industries": [
+        "ecommerce",
+        "dev_tools"
+      ]
     }
   ],
-  "version": 2
+  "version": 3
 }
