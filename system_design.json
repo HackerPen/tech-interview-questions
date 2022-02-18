@@ -15,6 +15,18 @@
       ]
     },
     {
+      "identifier": "system_design_parking_lot",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/SOLUTION_en.md"
+      },
+      "industries": null
+    },
+    {
       "identifier": "system_design_url_shortening",
       "category": "system_design",
       "difficulty": "medium",
@@ -45,5 +57,5 @@
       ]
     }
   ],
-  "version": 3
+  "version": 4
 }
