@@ -57,6 +57,7 @@ public boolean hasDuplicate(int[] nums) {
 What data structure has fast search and insert? Hash Set is perfect when dealing with duplicates.
 Iterate through the array and check if we've already seen it. Otherwise add to hash set and keep checking. If we've iterated through the whole array without finding a duplicate, we can return false.
 
+- make sure we use a hash set here instead of a hash table as there is no need for payload.
 **implementation**
 
 ```python
