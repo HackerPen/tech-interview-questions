@@ -248,6 +248,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_search_in_rotated_sorted_array",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_spiral_matrix",
       "category": "coding",
       "subcategory": "array",
@@ -380,5 +402,5 @@
       "industries": null
     }
   ],
-  "version": 22
+  "version": 23
 }
