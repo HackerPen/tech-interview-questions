@@ -15,6 +15,20 @@
       ]
     },
     {
+      "identifier": "system_design_online_chat",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/online_chat/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/online_chat/SOLUTION_en.md"
+      },
+      "industries": [
+        "social_media"
+      ]
+    },
+    {
       "identifier": "system_design_parking_lot",
       "category": "system_design",
       "difficulty": "medium",
@@ -57,5 +71,5 @@
       ]
     }
   ],
-  "version": 4
+  "version": 5
 }
