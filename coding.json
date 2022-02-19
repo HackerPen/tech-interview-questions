@@ -68,6 +68,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_find_minimum_in_sorted_array",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_insert_interval",
       "category": "coding",
       "subcategory": "array",
@@ -358,5 +380,5 @@
       "industries": null
     }
   ],
-  "version": 21
+  "version": 22
 }
