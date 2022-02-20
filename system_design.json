@@ -41,6 +41,20 @@
       "industries": null
     },
     {
+      "identifier": "system_design_ride_share",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/ride-share/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/ride-share/SOLUTION_en.md"
+      },
+      "industries": [
+        "transporation"
+      ]
+    },
+    {
       "identifier": "system_design_spending_tracker",
       "category": "system_design",
       "difficulty": "medium",
@@ -85,5 +99,5 @@
       ]
     }
   ],
-  "version": 6
+  "version": 7
 }
