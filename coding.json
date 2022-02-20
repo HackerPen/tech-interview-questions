@@ -249,6 +249,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_number_of_islands",
+      "category": "coding",
+      "subcategory": "graph",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_rotate_matrix",
       "category": "coding",
       "subcategory": "array",
@@ -425,5 +447,5 @@
       "industries": null
     }
   ],
-  "version": 25
+  "version": 26
 }
