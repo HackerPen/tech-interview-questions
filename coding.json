@@ -24,6 +24,28 @@
       "difficulty": "easy"
     },
     {
+      "identifier": "coding_contains_duplicate",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_course_schedule",
       "category": "coding",
       "subcategory": "graph",
@@ -403,5 +425,5 @@
       "industries": null
     }
   ],
-  "version": 24
+  "version": 25
 }
