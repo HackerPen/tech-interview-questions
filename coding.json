@@ -221,7 +221,8 @@
         "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.go",
         "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.js",
         "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.rb"
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.java"
       },
       "industries": null
     },
@@ -402,5 +403,5 @@
       "industries": null
     }
   ],
-  "version": 23
+  "version": 24
 }
