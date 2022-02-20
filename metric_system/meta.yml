@@ -1,0 +1,10 @@
+---
+identifier: system_design_metric_system
+category: system_design
+difficulty: medium
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+industries:
+  - dev_tools
