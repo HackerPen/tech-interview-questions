@@ -271,6 +271,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_merge_two_sorted_linked_lists",
+      "category": "coding",
+      "subcategory": "linked list",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_number_of_islands",
       "category": "coding",
       "subcategory": "graph",
@@ -513,5 +535,5 @@
       "industries": null
     }
   ],
-  "version": 29
+  "version": 30
 }
