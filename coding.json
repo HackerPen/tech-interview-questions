@@ -293,6 +293,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_reverse_linked_list",
+      "category": "coding",
+      "subcategory": "linked list",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_rotate_matrix",
       "category": "coding",
       "subcategory": "array",
@@ -491,5 +513,5 @@
       "industries": null
     }
   ],
-  "version": 28
+  "version": 29
 }
