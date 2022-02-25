@@ -13,3 +13,8 @@ describe how to approach the problem.
 def solution(self):
   pass
 ```
+
+**complexity**
+
+Time complexity: O(N)
+Space complexity: O(N)
