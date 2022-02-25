@@ -1,0 +1,23 @@
+---
+identifier: coding_climbing_stairs
+category: coding
+subcategory: "dynamic_programming"
+difficulty: easy
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+starter_code:
+  c: "starter.c"
+  cpp: "starter.cpp"
+  go: "starter.go"
+  javascript: "starter.js"
+  python: "starter.py"
+  ruby: "starter.rb"
+  java: "starter.java"
+industries:
+  - finance
+  - education
+  - ecommerce
+  - social_media
+  - dev_tools
