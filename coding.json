@@ -1,6 +1,30 @@
 {
   "questions": [
     {
+      "identifier": "coding_alien_dictionary",
+      "category": "coding",
+      "subcategory": "graph",
+      "difficulty": "hard",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/alien_dictionary/starter.java"
+      },
+      "industries": [
+        "education"
+      ]
+    },
+    {
       "identifier": "coding_buy_sell_stock",
       "category": "coding",
       "subcategory": "array",
@@ -22,6 +46,34 @@
         "finance"
       ],
       "difficulty": "easy"
+    },
+    {
+      "identifier": "coding_climbing_stairs",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.java"
+      },
+      "industries": [
+        "finance",
+        "education",
+        "ecommerce",
+        "social_media",
+        "dev_tools"
+      ]
     },
     {
       "identifier": "coding_coin_change",
@@ -174,6 +226,50 @@
         "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.py",
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.rb",
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.java"
+      },
+      "industries": null
+    },
+    {
+      "identifier": "coding_longest_common_subsequence",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.java"
+      },
+      "industries": null
+    },
+    {
+      "identifier": "coding_longest_increasing_subsequence",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.java"
       },
       "industries": null
     },
@@ -689,5 +785,5 @@
       "industries": null
     }
   ],
-  "version": 33
+  "version": 34
 }
