@@ -1,2 +1,6 @@
 class Solution:
-    def minRooms(self, intervals: List[List[int]]) -> int:
+    # @params:
+    # - intervals:  List[List[int]]
+    # @return: int
+    def minRooms(self, intervals):
+        pass

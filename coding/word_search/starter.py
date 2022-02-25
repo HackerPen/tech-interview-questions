@@ -1,2 +1,7 @@
 class Solution:
-    def word_search(self, board: List[List[str]], word: str) -> bool:
+    # @params:
+    # - board: List[List[str]]
+    # - word: str
+    # @return: bool
+    def word_search(self, board, word):
+        pass

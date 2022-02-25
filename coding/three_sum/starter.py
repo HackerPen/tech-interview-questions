@@ -1,3 +1,7 @@
 
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    # @params:
+    # - nums: List[int]
+    # @return: List[List[int]]
+    def threeSum(self, nums):
+        pass

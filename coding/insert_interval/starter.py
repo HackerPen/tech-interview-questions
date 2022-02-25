@@ -1,2 +1,6 @@
 class Solution:
-    def insert_interval(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+    # @params:
+    # - intervals: List[List[int]]
+    # - newInterview: List[int]
+    def insert_interval(self, intervals, newInterval):
+        pass
