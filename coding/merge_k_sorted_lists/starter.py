@@ -4,4 +4,8 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    # @params:
+    # - lists: List[Optional[ListNode]
+    # @return: Optional[ListNode]
+    def mergeKLists(self, lists):
+        pass

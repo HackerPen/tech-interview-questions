@@ -1,2 +1,7 @@
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+    # @params:
+    #  - numCourses: int
+    #  - prerequisites: List[List[int]]
+    # @return: bool
+    def canFinish(self, numCourses, prerequisites):
+        pass

@@ -1,2 +1,6 @@
 class Solution:
-    def hasDuplicate(self, nums: List[int]) -> bool:
+    # @params:
+    #   - nums: List[int]
+    # @return: bool
+    def hasDuplicate(self, nums):
+        pass

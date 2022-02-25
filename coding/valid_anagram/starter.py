@@ -1,2 +1,7 @@
 class Solution:
-    def isValidAnagram(self, s: str, t: str) -> bool:
+    # @params:
+    # - s: str
+    # - t: str
+    # @return: bool
+    def isValidAnagram(self, s, t):
+        pass

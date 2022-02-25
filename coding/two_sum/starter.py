@@ -1,3 +1,7 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
+    # @params:
+    # - nums: List[int]
+    # - target: int
+    # @return: List[int]
+    def twoSum(self, nums, target):
+        pass

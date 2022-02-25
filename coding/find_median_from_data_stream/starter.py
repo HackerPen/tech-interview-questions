@@ -1,14 +1,16 @@
 class MedianFinder:
-
     def __init__(self):
+        pass
 
+    # @params:
+    #  - num: int
+    # @return: None
+    def addNum(self, num):
+        pass
 
-    def addNum(self, num: int) -> None:
-
-
-    def findMedian(self) -> float:
-
-
+    # @return: float
+    def findMedian(self):
+        pass
 
 # Your MedianFinder object will be instantiated and called as such:
 # obj = MedianFinder()

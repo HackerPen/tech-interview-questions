@@ -1,2 +1,6 @@
 class Solution:
-    def spiral(self, matrix: List[List[int]]) -> List[int]:
+    # @params:
+    # - matrix: List[List[int]]
+    # @return:  List[int]
+    def spiral(self, matrix):
+        pass

@@ -52,7 +52,8 @@ const mergeKLists = (lists) => {
  - create new linked list while emptying heap
 
 **implementation**
-# In Python heapq library provides our heap structure. heapq sorts tuples by first item in tuple
+
+In Python heapq library provides our heap structure. heapq sorts tuples by first item in tuple
 
 ```python
 import heapq
@@ -75,7 +76,8 @@ class Solution:
         return sentinel.next
 ```
 
-# In JavaScript, there is no Heap data structure. One is provided here. A custom comparator function should be passed in when instantiated.
+In JavaScript, there is no Heap data structure. One is provided here. A custom comparator function should be passed in when instantiated.
+
 ```javascript
 class Heap{
     constructor(func){

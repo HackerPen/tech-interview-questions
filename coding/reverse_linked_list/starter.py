@@ -4,4 +4,8 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseLinkedList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    # @params
+    # - head: Optional[ListNode]
+    # @return: Optional[ListNode]
+    def reverseLinkedList(self, head):
+        pass

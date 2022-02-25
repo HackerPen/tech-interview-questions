@@ -1,2 +1,6 @@
 class Solution:
-    def countIslands(self, grid: List[List[str]]) -> int:
+    # @params:
+    # - grid: List[List[str]]
+    # @return: int
+    def countIslands(self, grid):
+        pass

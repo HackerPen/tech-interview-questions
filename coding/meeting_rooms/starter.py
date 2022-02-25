@@ -1,2 +1,5 @@
 class Solution:
-    def canGoToMeetings(self, intervals: List[List[int]]) -> bool:
+    # @params:
+    #   - intervals: List[List[int]]
+    # @return: bool
+    def canGoToMeetings(self, intervals):
