@@ -68,6 +68,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_counting_bits",
+      "category": "coding",
+      "subcategory": "binary",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_course_schedule",
       "category": "coding",
       "subcategory": "graph",
@@ -337,6 +359,50 @@
       "industries": null
     },
     {
+      "identifier": "coding_missing_number",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.java"
+      },
+      "industries": null
+    },
+    {
+      "identifier": "coding_number_of_1_bits",
+      "category": "coding",
+      "subcategory": "binary",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_number_of_islands",
       "category": "coding",
       "subcategory": "graph",
@@ -377,6 +443,28 @@
         "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.py",
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.rb",
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.java"
+      },
+      "industries": null
+    },
+    {
+      "identifier": "coding_reverse_bits",
+      "category": "coding",
+      "subcategory": "binary",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.java"
       },
       "industries": null
     },
@@ -601,5 +689,5 @@
       "industries": null
     }
   ],
-  "version": 32
+  "version": 33
 }
