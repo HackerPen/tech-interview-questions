@@ -1,0 +1,14 @@
+---
+identifier: copy_graph
+category: coding
+subcategory: "graph"
+difficulty: medium
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+starter_code:
+  javascript: "starter.js"
+  python: "starter.py"
+industries:
+  - software
