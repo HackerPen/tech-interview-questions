@@ -274,6 +274,28 @@
       "industries": null
     },
     {
+      "identifier": "coding_longest_substring_without_repeating_characers",
+      "category": "coding",
+      "subcategory": "string",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.java"
+      },
+      "industries": null
+    },
+    {
       "identifier": "coding_lru_cache",
       "category": "coding",
       "subcategory": "linked list",
@@ -785,5 +807,5 @@
       "industries": null
     }
   ],
-  "version": 35
+  "version": 36
 }
