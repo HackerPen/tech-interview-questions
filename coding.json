@@ -120,6 +120,25 @@
       "industries": null
     },
     {
+      "identifier": "copy_graph",
+      "category": "coding",
+      "subcategory": "graph",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/starter.py"
+      },
+      "industries": [
+        "software"
+      ]
+    },
+    {
       "identifier": "coding_counting_bits",
       "category": "coding",
       "subcategory": "binary",
@@ -807,5 +826,5 @@
       "industries": null
     }
   ],
-  "version": 36
+  "version": 37
 }
