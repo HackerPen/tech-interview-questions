@@ -1,4 +1,4 @@
-## Title for the solution
+## Solution for Longest Substring Without Repeating Characters
 
 
 ### Approach 1: Brute Force
