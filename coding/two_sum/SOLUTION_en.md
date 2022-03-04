@@ -109,7 +109,7 @@ const twoSum = (nums, target) => {
     hashmap = new Map();
   for (let i = 0; i < n; i++) {
     const complement = target - nums[i];
-    if (hashmap.has(complement)) return [i, hashmap.get(complemnt)];
+    if (hashmap.has(complement)) return [i, hashmap.get(complement)];
     hashmap.set(nums[i], i);
   }
 };
