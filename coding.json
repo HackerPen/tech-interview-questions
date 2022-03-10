@@ -1,7 +1,414 @@
 {
   "questions": [
     {
+      "identifier": "coding_merge_intervals",
+      "name": "Merge Intervals",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.rb"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/merge_intervals"
+    },
+    {
+      "identifier": "coding_number_of_1_bits",
+      "name": "Number of 1 bits",
+      "category": "coding",
+      "subcategory": "binary",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/number_of_1_bits"
+    },
+    {
+      "identifier": "coding_buy_sell_stock",
+      "name": "Buy & Sell Stock",
+      "category": "coding",
+      "subcategory": "array",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.rb"
+      },
+      "industries": [
+        "finance"
+      ],
+      "difficulty": "easy",
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/buy_sell_stock"
+    },
+    {
+      "identifier": "coding_unique_paths",
+      "name": "Unique Paths",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/unique_paths"
+    },
+    {
+      "identifier": "coding_maximum_subarray",
+      "name": "Maximum Subarray",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/maximum_subarray"
+    },
+    {
+      "identifier": "coding_merge_two_sorted_linked_lists",
+      "name": "Merge Two Sorted Linked Lists",
+      "category": "coding",
+      "subcategory": "linked list",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/merge_two_sorted_linked_lists"
+    },
+    {
+      "identifier": "coding_three_sum",
+      "name": "Three Sum",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.rb"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/three_sum"
+    },
+    {
+      "identifier": "coding_search_in_rotated_sorted_array",
+      "name": "Search in Rotated Sorted Array",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/search_in_rotated_sorted_array"
+    },
+    {
+      "identifier": "coding_find_minimum_in_sorted_array",
+      "name": "Find Minimum in Sorted Array",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/find_minimum_in_rotated_sorted_array"
+    },
+    {
+      "identifier": "coding_word_search",
+      "name": "Word Search",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/word_search"
+    },
+    {
+      "identifier": "coding_merge_k_sorted_lists",
+      "name": "Merge K Sorted Lists",
+      "category": "coding",
+      "subcategory": "heap",
+      "difficulty": "hard",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/merge_k_sorted_lists"
+    },
+    {
+      "identifier": "coding_coin_change",
+      "name": "Coin Change",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/coin_change"
+    },
+    {
+      "identifier": "coding_maximum_product_subarray",
+      "name": "Maximum Product Subarray",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/maximum_product_subarray"
+    },
+    {
+      "identifier": "coding_find_median_from_data_stream",
+      "name": "Find Median From Data Stream",
+      "category": "coding",
+      "subcategory": "Design",
+      "difficulty": "hard",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.rb"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/find_median_from_data_stream"
+    },
+    {
+      "identifier": "coding_meeting_rooms_2",
+      "name": "Meeting Room 2",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/meeting_rooms_2"
+    },
+    {
+      "identifier": "coding_longest_substring_without_repeating_characers",
+      "name": "Longest Substring Without Repeating Characters",
+      "category": "coding",
+      "subcategory": "string",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/longest_substring_without_repeating_characters"
+    },
+    {
+      "identifier": "coding_number_of_islands",
+      "name": "Number of Islands",
+      "category": "coding",
+      "subcategory": "graph",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/number_of_islands"
+    },
+    {
       "identifier": "coding_alien_dictionary",
+      "name": "Alien Dictionary",
       "category": "coding",
       "subcategory": "graph",
       "difficulty": "hard",
@@ -22,300 +429,38 @@
       },
       "industries": [
         "education"
-      ]
-    },
-    {
-      "identifier": "coding_buy_sell_stock",
-      "category": "coding",
-      "subcategory": "array",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/buy_sell_stock/starter.rb"
-      },
-      "industries": [
-        "finance"
       ],
-      "difficulty": "easy"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/alien_dictionary"
     },
     {
-      "identifier": "coding_climbing_stairs",
-      "category": "coding",
-      "subcategory": "dynamic_programming",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.java"
-      },
-      "industries": [
-        "finance",
-        "education",
-        "ecommerce",
-        "social_media",
-        "dev_tools"
-      ]
-    },
-    {
-      "identifier": "coding_coin_change",
-      "category": "coding",
-      "subcategory": "dynamic_programming",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_contains_duplicate",
+      "identifier": "coding_two_sum",
+      "name": "Two Sum",
       "category": "coding",
       "subcategory": "array",
       "difficulty": "easy",
       "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/README_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/README_en.md"
       },
       "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/SOLUTION_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/SOLUTION_en.md"
       },
       "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "copy_graph",
-      "category": "coding",
-      "subcategory": "graph",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/starter.py"
-      },
-      "industries": [
-        "software"
-      ]
-    },
-    {
-      "identifier": "coding_counting_bits",
-      "category": "coding",
-      "subcategory": "binary",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_course_schedule",
-      "category": "coding",
-      "subcategory": "graph",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.rb"
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.java"
       },
       "industries": [
         "education"
       ],
-      "difficulty": "medium"
-    },
-    {
-      "identifier": "coding_find_median_from_data_stream",
-      "category": "coding",
-      "subcategory": "Design",
-      "difficulty": "hard",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.rb"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_find_minimum_in_sorted_array",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_insert_interval",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_longest_common_subsequence",
-      "category": "coding",
-      "subcategory": "dynamic_programming",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_longest_increasing_subsequence",
-      "category": "coding",
-      "subcategory": "dynamic_programming",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_longest_substring_without_repeating_characers",
-      "category": "coding",
-      "subcategory": "string",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.java"
-      },
-      "industries": null
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/two_sum"
     },
     {
       "identifier": "coding_lru_cache",
+      "name": "LRU Cache",
       "category": "coding",
       "subcategory": "linked list",
       "difficulty": "medium",
@@ -340,449 +485,60 @@
         "ecommerce",
         "social_media",
         "dev_tools"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/lru_cache"
     },
     {
-      "identifier": "coding_maximu_product_subarray",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_maximum_subarray",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_meeting_rooms",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_meeting_rooms_2",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_merge_intervals",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.rb"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_merge_k_sorted_lists",
-      "category": "coding",
-      "subcategory": "heap",
-      "difficulty": "hard",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_merge_two_sorted_linked_lists",
-      "category": "coding",
-      "subcategory": "linked list",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_missing_number",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_number_of_1_bits",
+      "identifier": "coding_counting_bits",
+      "name": "Counting Bits",
       "category": "coding",
       "subcategory": "binary",
       "difficulty": "easy",
       "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/README_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/README_en.md"
       },
       "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/SOLUTION_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/SOLUTION_en.md"
       },
       "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.java"
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.java"
       },
-      "industries": null
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/counting_bits"
     },
     {
-      "identifier": "coding_number_of_islands",
-      "category": "coding",
-      "subcategory": "graph",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_product_of_array_except_self",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_reverse_bits",
-      "category": "coding",
-      "subcategory": "binary",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_reverse_linked_list",
-      "category": "coding",
-      "subcategory": "linked list",
-      "difficulty": "easy",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_rotate_matrix",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_search_in_rotated_sorted_array",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_spiral_matrix",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.java"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_three_sum",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.rb"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_top_k_frequent_elements",
-      "category": "coding",
-      "subcategory": "heap",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.rb"
-      },
-      "industries": null
-    },
-    {
-      "identifier": "coding_two_sum",
+      "identifier": "coding_contains_duplicate",
+      "name": "Contains Duplicate",
       "category": "coding",
       "subcategory": "array",
       "difficulty": "easy",
       "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/README_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/README_en.md"
       },
       "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/SOLUTION_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/SOLUTION_en.md"
       },
       "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/two_sum/starter.java"
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.java"
       },
-      "industries": [
-        "education"
-      ]
-    },
-    {
-      "identifier": "coding_unique_paths",
-      "category": "coding",
-      "subcategory": "array",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/SOLUTION_en.md"
-      },
-      "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.java"
-      },
-      "industries": null
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/contains_duplicate"
     },
     {
       "identifier": "coding_valid_anagram",
+      "name": "Valid Anagram",
       "category": "coding",
       "subcategory": "hash table",
       "difficulty": "easy",
@@ -801,30 +557,348 @@
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/valid_anagram/starter.rb",
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/valid_anagram/starter.java"
       },
-      "industries": null
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/valid_anagram"
     },
     {
-      "identifier": "coding_word_search",
+      "identifier": "coding_longest_common_subsequence",
+      "name": "Longest Common Subsequence",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/longest_common_subsequence"
+    },
+    {
+      "identifier": "coding_longest_increasing_subsequence",
+      "name": "Longest Increasing Subsequence",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/longest_increasing_subsequence"
+    },
+    {
+      "identifier": "coding_missing_number",
+      "name": "Missing Number",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/missing_number"
+    },
+    {
+      "identifier": "coding_course_schedule",
+      "name": "Course Schedule",
+      "category": "coding",
+      "subcategory": "graph",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/course_schedule/starter.rb"
+      },
+      "industries": [
+        "education"
+      ],
+      "difficulty": "medium",
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/course_schedule"
+    },
+    {
+      "identifier": "copy_graph",
+      "name": "Copy Graph",
+      "category": "coding",
+      "subcategory": "graph",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/copy_graph/starter.py"
+      },
+      "industries": [
+        "software"
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/copy_graph"
+    },
+    {
+      "identifier": "coding_product_of_array_except_self",
+      "name": "Product of Array except self",
       "category": "coding",
       "subcategory": "array",
       "difficulty": "medium",
       "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/README_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/README_en.md"
       },
       "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/SOLUTION_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/SOLUTION_en.md"
       },
       "starter_code": {
-        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.c",
-        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.cpp",
-        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.go",
-        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.js",
-        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.py",
-        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.rb",
-        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.java"
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.java"
       },
-      "industries": null
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/product_of_array_except_self"
+    },
+    {
+      "identifier": "coding_spiral_matrix",
+      "name": "Spiral Matrix",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/spiral_matrix"
+    },
+    {
+      "identifier": "coding_insert_interval",
+      "name": "Insert Interval",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/insert_interval"
+    },
+    {
+      "identifier": "coding_reverse_bits",
+      "name": "Reverse Bits",
+      "category": "coding",
+      "subcategory": "binary",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/reverse_bits"
+    },
+    {
+      "identifier": "coding_reverse_linked_list",
+      "name": "Reverse Linked List",
+      "category": "coding",
+      "subcategory": "linked list",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/reverse_linked_list"
+    },
+    {
+      "identifier": "coding_rotate_matrix",
+      "name": "Rotate Matrix",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/rotate_matrix"
+    },
+    {
+      "identifier": "coding_top_k_frequent_elements",
+      "name": "Top K Frequent Elements",
+      "category": "coding",
+      "subcategory": "heap",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.rb"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/top_k_frequent_elements"
+    },
+    {
+      "identifier": "coding_meeting_rooms",
+      "name": "Meeting Rooms",
+      "category": "coding",
+      "subcategory": "array",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/meeting_rooms"
+    },
+    {
+      "identifier": "coding_climbing_stairs",
+      "name": "Climbing Stairs",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "easy",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/climbing_stairs/starter.java"
+      },
+      "industries": [
+        "finance",
+        "education",
+        "ecommerce",
+        "social_media",
+        "dev_tools"
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/climbing_stairs"
     }
   ],
-  "version": 39
+  "version": 40
 }
