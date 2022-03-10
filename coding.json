@@ -21,7 +21,7 @@
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_intervals/starter.rb"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/merge_intervals"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/merge_intervals"
     },
     {
       "identifier": "coding_number_of_1_bits",
@@ -45,7 +45,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_1_bits/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/number_of_1_bits"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/number_of_1_bits"
     },
     {
       "identifier": "coding_buy_sell_stock",
@@ -70,7 +70,7 @@
         "finance"
       ],
       "difficulty": "easy",
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/buy_sell_stock"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/buy_sell_stock"
     },
     {
       "identifier": "coding_unique_paths",
@@ -94,7 +94,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/unique_paths/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/unique_paths"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/unique_paths"
     },
     {
       "identifier": "coding_maximum_subarray",
@@ -118,7 +118,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_subarray/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/maximum_subarray"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/maximum_subarray"
     },
     {
       "identifier": "coding_merge_two_sorted_linked_lists",
@@ -142,7 +142,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_two_sorted_linked_lists/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/merge_two_sorted_linked_lists"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/merge_two_sorted_linked_lists"
     },
     {
       "identifier": "coding_three_sum",
@@ -165,7 +165,7 @@
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/three_sum/starter.rb"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/three_sum"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/three_sum"
     },
     {
       "identifier": "coding_search_in_rotated_sorted_array",
@@ -189,7 +189,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/search_in_rotated_sorted_array/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/search_in_rotated_sorted_array"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/search_in_rotated_sorted_array"
     },
     {
       "identifier": "coding_find_minimum_in_sorted_array",
@@ -213,7 +213,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_minimum_in_rotated_sorted_array/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/find_minimum_in_rotated_sorted_array"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/find_minimum_in_rotated_sorted_array"
     },
     {
       "identifier": "coding_word_search",
@@ -237,7 +237,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/word_search/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/word_search"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/word_search"
     },
     {
       "identifier": "coding_merge_k_sorted_lists",
@@ -261,7 +261,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/merge_k_sorted_lists/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/merge_k_sorted_lists"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/merge_k_sorted_lists"
     },
     {
       "identifier": "coding_coin_change",
@@ -285,7 +285,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/coin_change"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coin_change"
     },
     {
       "identifier": "coding_maximum_product_subarray",
@@ -309,7 +309,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/maximum_product_subarray/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/maximum_product_subarray"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/maximum_product_subarray"
     },
     {
       "identifier": "coding_find_median_from_data_stream",
@@ -332,7 +332,7 @@
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/find_median_from_data_stream/starter.rb"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/find_median_from_data_stream"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/find_median_from_data_stream"
     },
     {
       "identifier": "coding_meeting_rooms_2",
@@ -356,7 +356,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms_2/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/meeting_rooms_2"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/meeting_rooms_2"
     },
     {
       "identifier": "coding_longest_substring_without_repeating_characers",
@@ -380,7 +380,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_substring_without_repeating_characters/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/longest_substring_without_repeating_characters"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/longest_substring_without_repeating_characters"
     },
     {
       "identifier": "coding_number_of_islands",
@@ -404,7 +404,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/number_of_islands/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/number_of_islands"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/number_of_islands"
     },
     {
       "identifier": "coding_alien_dictionary",
@@ -430,7 +430,7 @@
       "industries": [
         "education"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/alien_dictionary"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/alien_dictionary"
     },
     {
       "identifier": "coding_two_sum",
@@ -456,7 +456,7 @@
       "industries": [
         "education"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/two_sum"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/two_sum"
     },
     {
       "identifier": "coding_lru_cache",
@@ -486,7 +486,7 @@
         "social_media",
         "dev_tools"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/lru_cache"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/lru_cache"
     },
     {
       "identifier": "coding_counting_bits",
@@ -510,7 +510,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/counting_bits/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/counting_bits"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/counting_bits"
     },
     {
       "identifier": "coding_contains_duplicate",
@@ -534,7 +534,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/contains_duplicate/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/contains_duplicate"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/contains_duplicate"
     },
     {
       "identifier": "coding_valid_anagram",
@@ -558,7 +558,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/valid_anagram/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/valid_anagram"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/valid_anagram"
     },
     {
       "identifier": "coding_longest_common_subsequence",
@@ -582,7 +582,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_common_subsequence/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/longest_common_subsequence"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/longest_common_subsequence"
     },
     {
       "identifier": "coding_longest_increasing_subsequence",
@@ -606,7 +606,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/longest_increasing_subsequence/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/longest_increasing_subsequence"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/longest_increasing_subsequence"
     },
     {
       "identifier": "coding_missing_number",
@@ -630,7 +630,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/missing_number/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/missing_number"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/missing_number"
     },
     {
       "identifier": "coding_course_schedule",
@@ -655,7 +655,7 @@
         "education"
       ],
       "difficulty": "medium",
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/course_schedule"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/course_schedule"
     },
     {
       "identifier": "copy_graph",
@@ -676,7 +676,7 @@
       "industries": [
         "software"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/copy_graph"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/copy_graph"
     },
     {
       "identifier": "coding_product_of_array_except_self",
@@ -700,7 +700,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/product_of_array_except_self/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/product_of_array_except_self"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/product_of_array_except_self"
     },
     {
       "identifier": "coding_spiral_matrix",
@@ -724,7 +724,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/spiral_matrix/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/spiral_matrix"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/spiral_matrix"
     },
     {
       "identifier": "coding_insert_interval",
@@ -748,7 +748,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/insert_interval/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/insert_interval"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/insert_interval"
     },
     {
       "identifier": "coding_reverse_bits",
@@ -772,7 +772,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_bits/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/reverse_bits"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/reverse_bits"
     },
     {
       "identifier": "coding_reverse_linked_list",
@@ -796,7 +796,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/reverse_linked_list/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/reverse_linked_list"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/reverse_linked_list"
     },
     {
       "identifier": "coding_rotate_matrix",
@@ -820,7 +820,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/rotate_matrix/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/rotate_matrix"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/rotate_matrix"
     },
     {
       "identifier": "coding_top_k_frequent_elements",
@@ -843,7 +843,7 @@
         "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/top_k_frequent_elements/starter.rb"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/top_k_frequent_elements"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/top_k_frequent_elements"
     },
     {
       "identifier": "coding_meeting_rooms",
@@ -867,7 +867,7 @@
         "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/meeting_rooms/starter.java"
       },
       "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/meeting_rooms"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/meeting_rooms"
     },
     {
       "identifier": "coding_climbing_stairs",
@@ -897,8 +897,8 @@
         "social_media",
         "dev_tools"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coding/climbing_stairs"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/climbing_stairs"
     }
   ],
-  "version": 40
+  "version": 41
 }

@@ -1,50 +1,20 @@
 {
   "questions": [
     {
-      "identifier": "system_design_news_feed",
-      "name": "News Feed",
+      "identifier": "system_design_spending_tracker",
+      "name": "Spending Tracker",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/news_feed/README_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/spending_tracker/README_en.md"
       },
       "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/news_feed/SOLUTION_en.md"
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/spending_tracker/SOLUTION_en.md"
       },
       "industries": [
-        "social_media"
+        "finance"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/news_feed"
-    },
-    {
-      "identifier": "system_design_online_chat",
-      "name": "Online Chat",
-      "category": "system_design",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/online_chat/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/online_chat/SOLUTION_en.md"
-      },
-      "industries": [
-        "social_media"
-      ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/online_chat"
-    },
-    {
-      "identifier": "system_design_parking_lot",
-      "name": "Parking Lot",
-      "category": "system_design",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/SOLUTION_en.md"
-      },
-      "industries": null,
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/parking_lot"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/spending_tracker"
     },
     {
       "identifier": "system_design_photo_sharing",
@@ -64,7 +34,7 @@
         "social_media",
         "dev_tools"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/photo_sharing"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/photo_sharing"
     },
     {
       "identifier": "system_design_ride_share",
@@ -80,40 +50,7 @@
       "industries": [
         "transporation"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/ride-share"
-    },
-    {
-      "identifier": "system_design_spending_tracker",
-      "name": "Spending Tracker",
-      "category": "system_design",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/spending_tracker/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/spending_tracker/SOLUTION_en.md"
-      },
-      "industries": [
-        "finance"
-      ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/spending_tracker"
-    },
-    {
-      "identifier": "system_design_url_shortening",
-      "name": "URL shortening",
-      "category": "system_design",
-      "difficulty": "medium",
-      "description": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/url_shortening/README_en.md"
-      },
-      "solution": {
-        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/url_shortening/SOLUTION_en.md"
-      },
-      "industries": [
-        "social_media",
-        "dev_tools"
-      ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/url_shortening"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/ride-share"
     },
     {
       "identifier": "system_design_web_crawler",
@@ -130,8 +67,71 @@
         "ecommerce",
         "dev_tools"
       ],
-      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/web_crawler"
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/web_crawler"
+    },
+    {
+      "identifier": "system_design_url_shortening",
+      "name": "URL shortening",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/url_shortening/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/url_shortening/SOLUTION_en.md"
+      },
+      "industries": [
+        "social_media",
+        "dev_tools"
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/url_shortening"
+    },
+    {
+      "identifier": "system_design_parking_lot",
+      "name": "Parking Lot",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/SOLUTION_en.md"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/parking_lot"
+    },
+    {
+      "identifier": "system_design_online_chat",
+      "name": "Online Chat",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/online_chat/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/online_chat/SOLUTION_en.md"
+      },
+      "industries": [
+        "social_media"
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/online_chat"
+    },
+    {
+      "identifier": "system_design_news_feed",
+      "name": "News Feed",
+      "category": "system_design",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/news_feed/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/news_feed/SOLUTION_en.md"
+      },
+      "industries": [
+        "social_media"
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/system_design/news_feed"
     }
   ],
-  "version": 9
+  "version": 10
 }
