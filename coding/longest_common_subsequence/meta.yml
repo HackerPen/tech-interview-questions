@@ -1,5 +1,6 @@
 ---
 identifier: coding_longest_common_subsequence
+name: "Longest Common Subsequence"
 category: coding
 subcategory: "dynamic_programming"
 difficulty: medium

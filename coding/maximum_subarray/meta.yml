@@ -1,5 +1,6 @@
 ---
 identifier: coding_maximum_subarray
+name: "Maximum Subarray"
 category: coding
 subcategory: "array"
 difficulty: easy

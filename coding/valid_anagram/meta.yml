@@ -1,5 +1,6 @@
 ---
 identifier: coding_valid_anagram
+name: "Valid Anagram"
 category: coding
 subcategory: "hash table"
 difficulty: easy

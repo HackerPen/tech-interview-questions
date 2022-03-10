@@ -1,5 +1,6 @@
 ---
 identifier: coding_product_of_array_except_self
+name: "Product of Array except self"
 category: coding
 subcategory: "array"
 difficulty: medium

@@ -1,5 +1,6 @@
 ---
 identifier: coding_merge_k_sorted_lists
+name: "Merge K Sorted Lists"
 category: coding
 subcategory: "heap"
 difficulty: hard

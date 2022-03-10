@@ -1,5 +1,6 @@
 ---
 identifier: coding_merge_intervals
+name: "Merge Intervals"
 category: coding
 subcategory: "array"
 difficulty: medium

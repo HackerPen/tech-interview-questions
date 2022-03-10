@@ -1,5 +1,6 @@
 ---
 identifier: coding_longest_increasing_subsequence
+name: "Longest Increasing Subsequence"
 category: coding
 subcategory: "dynamic_programming"
 difficulty: medium

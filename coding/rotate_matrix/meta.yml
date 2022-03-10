@@ -1,5 +1,6 @@
 ---
 identifier: coding_rotate_matrix
+name: "Rotate Matrix"
 category: coding
 subcategory: "array"
 difficulty: medium

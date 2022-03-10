@@ -1,5 +1,6 @@
 ---
 identifier: coding_unique_paths
+name: "Unique Paths"
 category: coding
 subcategory: "array"
 difficulty: medium

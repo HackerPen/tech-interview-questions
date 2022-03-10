@@ -1,5 +1,6 @@
 ---
 identifier: coding_three_sum
+name: "Three Sum"
 category: coding
 subcategory: "array"
 difficulty: medium

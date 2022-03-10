@@ -1,5 +1,6 @@
 ---
 identifier: copy_graph
+name: "Copy Graph"
 category: coding
 subcategory: "graph"
 difficulty: medium

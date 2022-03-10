@@ -1,5 +1,6 @@
 ---
 identifier: coding_longest_substring_without_repeating_characers
+name: "Longest Substring Without Repeating Characters"
 category: coding
 subcategory: "string"
 difficulty: medium

@@ -1,5 +1,6 @@
 ---
 identifier: coding_contains_duplicate
+name: "Contains Duplicate"
 category: coding
 subcategory: "array"
 difficulty: easy

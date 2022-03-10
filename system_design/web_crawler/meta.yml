@@ -1,5 +1,6 @@
 ---
 identifier: system_design_web_crawler
+name: "Web Crawler"
 category: system_design
 difficulty: medium
 description:

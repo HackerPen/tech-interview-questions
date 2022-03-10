@@ -1,5 +1,6 @@
 ---
 identifier: coding_reverse_linked_list
+name: "Reverse Linked List"
 category: coding
 subcategory: "linked list"
 difficulty: easy

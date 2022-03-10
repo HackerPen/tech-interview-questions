@@ -1,5 +1,6 @@
 ---
 identifier: coding_merge_two_sorted_linked_lists
+name: "Merge Two Sorted Linked Lists"
 category: coding
 subcategory: "linked list"
 difficulty: easy
