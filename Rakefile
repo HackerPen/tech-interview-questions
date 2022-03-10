@@ -25,7 +25,7 @@ def coding_question_data(dir)
   starter_code.each do |lang, file_path|
     starter_code[lang] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
   end
-  question_data["github_url"] = "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/#{dir}"
+  question_data["github_url"] = "https://github.com/HackerPen/tech-interview-questions/tree/main/#{dir}"
 
   return question_data
 end
@@ -45,7 +45,7 @@ def system_design_question_data(dir)
   solution.each do |locale, file_path|
     solution[locale] = "#{GITHUB_CDN}/#{GITHUB_BRANCH}/#{dir}/#{file_path}"
   end
-  question_data["github_url"] = "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/#{dir}"
+  question_data["github_url"] = "https://github.com/HackerPen/tech-interview-questions/tree/main/#{dir}"
 
   return question_data
 end
