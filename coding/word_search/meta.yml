@@ -1,5 +1,6 @@
 ---
 identifier: coding_word_search
+name: "Word Search"
 category: coding
 subcategory: "array"
 difficulty: medium

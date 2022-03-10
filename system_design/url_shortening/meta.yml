@@ -1,5 +1,6 @@
 ---
 identifier: system_design_url_shortening
+name: "URL shortening"
 category: system_design
 difficulty: medium
 description:

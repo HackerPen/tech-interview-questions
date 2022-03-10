@@ -1,5 +1,6 @@
 ---
-identifier: coding_maximu_product_subarray
+identifier: coding_maximum_product_subarray
+name: "Maximum Product Subarray"
 category: coding
 subcategory: "array"
 difficulty: medium

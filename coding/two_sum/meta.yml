@@ -1,5 +1,6 @@
 ---
 identifier: coding_two_sum
+name: "Two Sum"
 category: coding
 subcategory: "array"
 difficulty: easy

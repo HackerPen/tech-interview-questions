@@ -1,5 +1,6 @@
 ---
 identifier: coding_number_of_islands
+name: "Number of Islands"
 category: coding
 subcategory: "graph"
 difficulty: medium

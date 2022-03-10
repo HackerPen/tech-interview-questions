@@ -1,5 +1,6 @@
 ---
 identifier: coding_search_in_rotated_sorted_array
+name: "Search in Rotated Sorted Array"
 category: coding
 subcategory: "array"
 difficulty: medium

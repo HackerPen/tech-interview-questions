@@ -1,5 +1,6 @@
 ---
 identifier: coding_insert_interval
+name: "Insert Interval"
 category: coding
 subcategory: "array"
 difficulty: medium

@@ -1,5 +1,6 @@
 ---
 identifier: system_design_parking_lot
+name: "Parking Lot"
 category: system_design
 difficulty: medium
 description:

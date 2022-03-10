@@ -1,5 +1,6 @@
 ---
 identifier: coding_find_minimum_in_sorted_array
+name: "Find Minimum in Sorted Array"
 category: coding
 subcategory: "array"
 difficulty: medium

@@ -1,5 +1,6 @@
 ---
 identifier: coding_find_median_from_data_stream
+name: "Find Median From Data Stream"
 category: coding
 subcategory: "Design"
 difficulty: hard

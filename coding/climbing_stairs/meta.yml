@@ -1,5 +1,6 @@
 ---
 identifier: coding_climbing_stairs
+name: "Climbing Stairs"
 category: coding
 subcategory: "dynamic_programming"
 difficulty: easy

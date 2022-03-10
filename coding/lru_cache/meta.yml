@@ -1,5 +1,6 @@
 ---
 identifier: coding_lru_cache
+name: "LRU Cache"
 category: coding
 subcategory: "linked list"
 difficulty: medium

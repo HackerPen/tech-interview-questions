@@ -1,5 +1,6 @@
 ---
 identifier: some_unique_question_identifier
+name: "Some Unique Identifier"
 category: system_design
 difficulty: medium
 description:

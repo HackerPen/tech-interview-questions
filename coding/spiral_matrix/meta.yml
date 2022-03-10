@@ -1,5 +1,6 @@
 ---
 identifier: coding_spiral_matrix
+name: "Spiral Matrix"
 category: coding
 subcategory: "array"
 difficulty: medium

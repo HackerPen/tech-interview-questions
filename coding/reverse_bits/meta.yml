@@ -1,5 +1,6 @@
 ---
 identifier: coding_reverse_bits
+name: "Reverse Bits"
 category: coding
 subcategory: "binary"
 difficulty: easy

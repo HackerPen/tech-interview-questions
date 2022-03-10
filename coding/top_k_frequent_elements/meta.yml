@@ -1,5 +1,6 @@
 ---
 identifier: coding_top_k_frequent_elements
+name: "Top K Frequent Elements"
 category: coding
 subcategory: "heap"
 difficulty: medium

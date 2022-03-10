@@ -1,5 +1,6 @@
 ---
 identifier: system_design_news_feed
+name: "News Feed"
 category: system_design
 difficulty: medium
 description:

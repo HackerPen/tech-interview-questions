@@ -1,5 +1,6 @@
 ---
 identifier: coding_coin_change
+name: "Coin Change"
 category: coding
 subcategory: "dynamic_programming"
 difficulty: medium
