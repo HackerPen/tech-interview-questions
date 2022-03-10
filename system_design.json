@@ -2,6 +2,7 @@
   "questions": [
     {
       "identifier": "system_design_news_feed",
+      "name": "News Feed",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -12,10 +13,12 @@
       },
       "industries": [
         "social_media"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/news_feed"
     },
     {
       "identifier": "system_design_online_chat",
+      "name": "Online Chat",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -26,10 +29,12 @@
       },
       "industries": [
         "social_media"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/online_chat"
     },
     {
       "identifier": "system_design_parking_lot",
+      "name": "Parking Lot",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -38,10 +43,12 @@
       "solution": {
         "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/system_design/parking_lot/SOLUTION_en.md"
       },
-      "industries": null
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/parking_lot"
     },
     {
       "identifier": "system_design_photo_sharing",
+      "name": "Photo Sharing",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -56,10 +63,12 @@
         "ecommerce",
         "social_media",
         "dev_tools"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/photo_sharing"
     },
     {
       "identifier": "system_design_ride_share",
+      "name": "Ride Share",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -70,10 +79,12 @@
       },
       "industries": [
         "transporation"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/ride-share"
     },
     {
       "identifier": "system_design_spending_tracker",
+      "name": "Spending Tracker",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -84,10 +95,12 @@
       },
       "industries": [
         "finance"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/spending_tracker"
     },
     {
       "identifier": "system_design_url_shortening",
+      "name": "URL shortening",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -99,10 +112,12 @@
       "industries": [
         "social_media",
         "dev_tools"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/url_shortening"
     },
     {
       "identifier": "system_design_web_crawler",
+      "name": "Web Crawler",
       "category": "system_design",
       "difficulty": "medium",
       "description": {
@@ -114,8 +129,9 @@
       "industries": [
         "ecommerce",
         "dev_tools"
-      ]
+      ],
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/system_design/web_crawler"
     }
   ],
-  "version": 8
+  "version": 9
 }
