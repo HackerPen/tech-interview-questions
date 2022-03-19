@@ -1,6 +1,6 @@
 ## Merge Two Sorted Linked Lists
 
-Given tow sorted linked lists, merge the two lists into one sorted list
+Given two sorted linked lists, merge the two lists into one sorted list
 Return the merged linked list
 
 
