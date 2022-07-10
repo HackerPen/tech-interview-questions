@@ -271,6 +271,27 @@
       "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/insert_interval"
     },
     {
+      "identifier": "coding_knapsack",
+      "name": "Knapsack",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/knapsack/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/knapsack/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/knapsack/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/knapsack/starter.py",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/knapsack/starter.cpp",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/knapsack/starter.rb"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/knapsack"
+    },
+    {
       "identifier": "coding_longest_common_subsequence",
       "name": "Longest Common Subsequence",
       "category": "coding",
@@ -900,5 +921,5 @@
       "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/word_search"
     }
   ],
-  "version": 42
+  "version": 43
 }
