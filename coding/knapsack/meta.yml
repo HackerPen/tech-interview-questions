@@ -1,0 +1,16 @@
+---
+identifier: coding_knapsack
+name: "Knapsack"
+category: coding
+subcategory: "dynamic_programming"
+difficulty: medium
+description:
+  en: README_en.md
+solution:
+  en: SOLUTION_en.md
+starter_code:
+  javascript: "starter.js"
+  python: "starter.py"
+  cpp: "starter.cpp"
+  ruby: "starter.rb"
+industries:
