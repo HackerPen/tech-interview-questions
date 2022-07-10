@@ -41,3 +41,35 @@ class Solution:
 
 - Time complexity: O(n^2)
 - Space complexity: O(1). Only two variables - maxprofit and profit are used.
+
+### Solution 2: track buy price and max profit
+**algorithm**
+Initialize two variables `buy_price=prices[0]` and `max_profit=0` 
+Iterate through prices, and compare the price with buy price:
+- if it's bigger than current buy price, then calculate `profit = price - buyer_price`, compare it with existing `max_profit`.
+- if it's smaller than current buy price, then set it as the new buy price.
+
+**implementation**
+
+```ruby
+def max_profit(prices)
+  buy_price = prices[0]
+  max_profit = 0
+
+  prices.each do |price|
+    if price > buy_price
+      max_profit = [(price - buy_price), max_profit].max
+    elsif price < buy_price
+      buy_price = price
+    end
+  end
+
+  max_profit
+end
+```
+
+**Complexity Analysis**
+
+- Time complexity: O(n), where n is the size of prices. It iterates through the prices once.
+- Space complexity: O(1). Only two variables - `buy_price` and `max_profit` are used.
+
