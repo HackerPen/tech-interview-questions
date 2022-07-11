@@ -309,3 +309,82 @@ class LRUCache():
             node.value = value
             self._move_to_head(node)
 ```
+
+```ruby
+class Node
+  attr_accessor :prev, :next, :value
+  def initialize(prev_node, next_node, value)
+    @prev = prev_node
+    @next = next_node
+    @value = value
+  end
+end
+
+class LRUCache
+  attr_accessor :store, :capacity, :head, :tail
+  def initialize(capacity)
+    @capacity = capacity
+    @store = {}
+
+    # double linked list
+    # closer to head, more recent
+    # close to tail, less recent
+    @head = Node.new(nil, nil, nil)
+    @tail = Node.new(nil, nil, nil)
+    @head.next = @tail
+    @tail.prev = @head
+  end
+
+  def get(key)
+    if @store[key]
+      node = @store[key]
+      update_node_to_most_recent(node)
+
+      node.value
+    else
+      -1
+    end
+  end
+
+
+  def put(key, value)
+    if @store[key]
+      node = @store[key]
+      node.value = value
+      update_node_to_most_recent(node)
+    else
+      node = Node.new(nil, nil, value)
+      if @store.size == @capacity
+        evict_least_recent_node
+      end
+      update_node_to_most_recent(node)
+      @store[key] = node
+    end
+  end
+
+  def update_node_to_most_recent(node)
+    # take node out of the list if already there
+    if (node.next && node.prev)
+      node.prev.next = node.next
+      node.next.prev = node.prev
+    end
+
+    # relink the node closest to the head
+    previous_most_recent_node = @head.next
+    previous_most_recent_node.prev = node
+
+    node.next = previous_most_recent_node
+    node.prev = @head
+    @head.next = node
+  end
+
+  def evict_least_recent_node
+    previous_least_recent_node = @tail.prev
+    @tail.prev = previous_least_recent_node.prev
+    previous_least_recent_node.prev.next = @tail
+
+    evict_value = previous_least_recent_node.value
+    @store.delete(evict_value)
+  end
+end
+```
