@@ -11,6 +11,28 @@ To apply this idea, the algorithm uses backtracking technique to generate all co
 
 **implementation**
 
+```ruby
+def coin_change(coins, amount)
+  # base case
+  if coins.include?(amount)
+    return 1
+  end
+  if coins.min > amount
+    return -1
+  end
+
+  options = []
+  coins.each do |coin|
+    subchange = coin_change(coins, amount - coin)
+    if subchange != -1
+      options.push(subchange + 1)
+    end
+  end
+
+  if options.empty? then -1 else options.min end
+end
+```
+
 ```java
 public class Solution {
 
@@ -43,7 +65,7 @@ public class Solution {
 Time complexity : O(S^n). In the worst case, complexity is exponential in the number of the coins n.
 Space complexity : O(n). In the worst case the maximum depth of recursion is n. Therefore we need O(n) space used by the system recursive stack.
 
-## Approach 2: Dynamic programming - Top down
+## Approach 2: Top down Dynamic programming with memoization
 
 **algorithm**
 
