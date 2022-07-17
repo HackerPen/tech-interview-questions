@@ -106,6 +106,30 @@
       "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coin_change"
     },
     {
+      "identifier": "coding_coin_change_2",
+      "name": "Coin Change 2",
+      "category": "coding",
+      "subcategory": "dynamic_programming",
+      "difficulty": "medium",
+      "description": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/README_en.md"
+      },
+      "solution": {
+        "en": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/SOLUTION_en.md"
+      },
+      "starter_code": {
+        "c": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.c",
+        "cpp": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.cpp",
+        "go": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.go",
+        "javascript": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.js",
+        "python": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.py",
+        "ruby": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.rb",
+        "java": "https://raw.githubusercontent.com/HackerPen/tech-interview-questions/main/coding/coin_change_2/starter.java"
+      },
+      "industries": null,
+      "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/coin_change_2"
+    },
+    {
       "identifier": "coding_contains_duplicate",
       "name": "Contains Duplicate",
       "category": "coding",
@@ -921,5 +945,5 @@
       "github_url": "https://github.com/HackerPen/tech-interview-questions/tree/main/coding/word_search"
     }
   ],
-  "version": 46
+  "version": 47
 }
