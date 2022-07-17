@@ -10,7 +10,6 @@ The question bank includes the following types of questions:
 
 - coding
 - system design
-- behavior (TODO)
 
 ## Contribute
 
